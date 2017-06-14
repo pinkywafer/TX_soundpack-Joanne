@@ -8,4 +8,4 @@ To install, extract the contents of the zip file and move the en\ folder into yo
 
 The files stored here are all in openTX2.2 format.  The Arrange.bat file is used to copy all files into the suitable filenames and locations for openTX2.1, and this is based upon the locations / filenames present in contents.csv
 
-
+This soundpack will remain permanently free, but a great deal of work has gone into it. If you enjoy this soundpack,  please consider [making a donation](https://paypal.me/jennygorton)
