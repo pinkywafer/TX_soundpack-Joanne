@@ -4,5 +4,10 @@ Joanne Gorton
 [Editor/Maintainer]
 Jennifer Gorton
 
-[Donors]
+[People who have contributed to code / documentation]
+jli
+
+[People who have made donationdonations]
 Warjet1950 
+Teamdavey
+Chris Thompson 
