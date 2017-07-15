@@ -1,7 +1,9 @@
 # OpenTX_Soundpack-Joanne
+
 Real recorded voice files for use with OpenTX 2.1 and 2.2.
 
-To download the current soundpack go to the Releases page: https://github.com/pinkywafer/OpenTX_soundpack-Joanne/releases
+To download the current soundpack go to the
+[Releases page](https://github.com/pinkywafer/OpenTX_soundpack-Joanne/releases).
 Make sure to select the download for your version of OpenTX.
 
 To install, extract the contents of the zip file and move the en\ folder into your SD Card's SOUNDS folder.
@@ -15,8 +17,8 @@ A separate download for each supported version of OpenTX is be available from th
 
 If you wish to request additional sounds to be added for your own use, from your model names, to flight modes etc
 or if you have any issues with the pack, you can make reports / requests at either:
-* the RC groups forum: https://www.rcgroups.com/forums/showthread.php?2888433-OpenTX-Soundpack-Joanne
-* or by opening an issue on Github: https://github.com/pinkywafer/OpenTX_soundpack-Joanne/issues
+* the [RC groups thread](https://www.rcgroups.com/forums/showthread.php?2888433-OpenTX-Soundpack-Joanne)
+* or by [opening an issue on Github](https://github.com/pinkywafer/OpenTX_soundpack-Joanne/issues).
 
 This soundpack will remain permanently free, but a great deal of work has gone into it, and continues to do so.
 If you enjoy this soundpack, please consider making a donation to show your support to https://paypal.me/jennygorton
