@@ -224,7 +224,7 @@ Throttle Curve 1,\thrc1.wav,\thrc1.wav,1,
 Throttle Curve 2,\thrc2.wav,\thrc2.wav,1,
 Throttle Curve 3,\thrc3.wav,\thrc3.wav,1,
 Throttle Active,\thract.wav,\thract.wav,1,
-Throttle Disabled,\thrdis.wav,\thrdis.wav,1 + Update 1.4,
+Throttle Disabled,\thrdis.wav,\thrdis.wav,1, Update 1.4
 Throttle Hold,\thrhld.wav,\thrhld.wav,1,
 Throttle Hold Active,\thrhac.wav,\thrhac.wav,1,
 Throttle Hold Disabled,\thrhdi.wav,\thrhdi.wav,1,
