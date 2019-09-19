@@ -1,6 +1,6 @@
 # OpenTX_Soundpack-Joanne
 
-Real recorded voice files for use with OpenTX 2.1 and 2.2.
+Real recorded voice files for use with OpenTX 2.1, 2.2 and 2.3.
 
 To download the current soundpack go to the
 [Releases page](https://github.com/pinkywafer/OpenTX_soundpack-Joanne/releases).
