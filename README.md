@@ -21,6 +21,8 @@ or if you have any issues with the pack, you can make reports / requests at eith
 * or by [opening an issue on Github](https://github.com/pinkywafer/OpenTX_soundpack-Joanne/issues).
 
 This soundpack will remain permanently free, but a great deal of work has gone into it, and continues to do so.
-If you enjoy this soundpack, please consider making a donation to show your support to https://paypal.me/jennygorton
+If you enjoy this soundpack, please consider making a donation to show your support to https://paypal.me/jennygorton or alternatively [<a href="https://www.buymeacoffee.com/V3q9id4" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/purple_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>](https://www.buymeacoffee.com/V3q9id4)
+
+If you wish to have your name included in the credits file, please tell me how you'd like to be included on the notes section when making your donation and please quote `soundpack` so that I know which project you're supporting!
 
 If you use this soundpack as part of a video / recording, please give credit, and the link to the original download page.
