@@ -1,4 +1,10 @@
 # OpenTX_Soundpack-Joanne
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/pinkywafer/OpenTX_soundpack-Joanne)
+![GitHub Release Date](https://img.shields.io/github/release-date/pinkywafer/OpenTX_soundpack-Joanne)
+![GitHub Releases](https://img.shields.io/github/downloads/pinkywafer/OpenTX_soundpack-Joanne/latest/total)
+![GitHub All Releases](https://img.shields.io/github/downloads/pinkywafer/OpenTX_soundpack-Joanne/total)
+
+![GitHub issues](https://img.shields.io/github/issues/pinkywafer/OpenTX_soundpack-Joanne)
 
 Real recorded voice files for use with OpenTX 2.1, 2.2 and 2.3.
 
