@@ -1,0 +1,56 @@
+name: Release
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  release:
+    name: Prepare release
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Get the version
+        id: get_version
+        run: echo ::set-output name=VERSION::${GITHUB_REF#refs/tags/}
+      - name: Arrange files for different versions
+        run: |
+            cd /home/runner/work/OpenTX_soundpack-Joanne/OpenTX_soundpack-Joanne
+            mkdir -p 2.1/en/SYSTEM
+            mkdir -p 2.2/en/SYSTEM
+            mkdir -p 2.3/en/SYSTEM
+            sed '1d; s/\\/\//g' contents.csv | while IFS=, read name twothree twotwo twoone; do cp -v "en$twotwo" "2.1/en$twoone" ; cp -v "en$twotwo" "2.2/en$twotwo"; cp -v "en$twotwo" "2.3/en$twothree"; done
+      # Pack the zip releases 
+      - name: ZIP releases
+        run: |
+          cd /home/runner/work/OpenTX_soundpack-Joanne/OpenTX_soundpack-Joanne/2.1
+          zip v${{ steps.get_version.outputs.VERSION }}.for.OpenTX.2.1.zip -r ./
+          cd /home/runner/work/OpenTX_soundpack-Joanne/OpenTX_soundpack-Joanne/2.2
+          zip v${{ steps.get_version.outputs.VERSION }}.for.OpenTX.2.2.zip -r ./
+          cd /home/runner/work/OpenTX_soundpack-Joanne/OpenTX_soundpack-Joanne/2.3
+          zip v${{ steps.get_version.outputs.VERSION }}.for.OpenTX.2.3.zip -r ./
+      # upload to the release
+      - name: Upload 2.1 zip to release
+        uses: svenstaro/upload-release-action@v1-release
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: /home/runner/work/OpenTX_soundpack-Joanne/OpenTX_soundpack-Joanne/2.1/v${{ steps.get_version.outputs.VERSION }}.for.OpenTX.2.1.zip
+          asset_name: v${{ steps.get_version.outputs.VERSION }}.for.OpenTX.2.1.zip
+          tag: ${{ github.ref }}
+          overwrite: true
+      - name: Upload 2.2 zip to release
+        uses: svenstaro/upload-release-action@v1-release
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: /home/runner/work/OpenTX_soundpack-Joanne/OpenTX_soundpack-Joanne/2.2/v${{ steps.get_version.outputs.VERSION }}.for.OpenTX.2.2.zip
+          asset_name: v${{ steps.get_version.outputs.VERSION }}.for.OpenTX.2.2.zip
+          tag: ${{ github.ref }}
+          overwrite: true
+      - name: Upload 2.3 zip to release
+        uses: svenstaro/upload-release-action@v1-release
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: /home/runner/work/OpenTX_soundpack-Joanne/OpenTX_soundpack-Joanne/2.3/v${{ steps.get_version.outputs.VERSION }}.for.OpenTX.2.3.zip
+          asset_name: v${{ steps.get_version.outputs.VERSION }}.for.OpenTX.2.3.zip
+          tag: ${{ github.ref }}
+          overwrite: true
