@@ -19,7 +19,11 @@ jobs:
             mkdir -p 2.1/en/SYSTEM
             mkdir -p 2.2/en/SYSTEM
             mkdir -p 2.3/en/SYSTEM
-            sed '1d; s/\\/\//g' contents.csv | while IFS=, read name twothree twotwo twoone; do cp -v "en$twotwo" "2.1/en$twoone" ; cp -v "en$twotwo" "2.2/en$twotwo"; cp -v "en$twotwo" "2.3/en$twothree"; done
+            mkdir -p 2.9/en/SYSTEM
+            mkdir -p 2.9/en/SCRIPTS/BETAFLIGHT
+            mkdir -p 2.9/en/SCRIPTS/INAV
+            mkdir -p 2.9/en/SCRIPTS/YAAPU
+            sed '1d; s/\\/\//g' contents.csv | while IFS=, read name twonine twothree twotwo twoone; do cp -v "en$twotwo" "2.1/en$twoone" ; cp -v "en$twotwo" "2.2/en$twotwo"; cp -v "en$twotwo" "2.3/en$twothree"; cp -v "en$twotwo" "2.9/en$twonine"; done
       # Pack the zip releases 
       - name: ZIP releases
         run: |
@@ -29,6 +33,8 @@ jobs:
           zip v${{ steps.get_version.outputs.VERSION }}.for.OpenTX.2.2.zip -r ./
           cd /home/runner/work/OpenTX_soundpack-Joanne/OpenTX_soundpack-Joanne/2.3
           zip v${{ steps.get_version.outputs.VERSION }}.for.OpenTX.2.3.zip -r ./
+          cd /home/runner/work/OpenTX_soundpack-Joanne/OpenTX_soundpack-Joanne/2.9
+          zip v${{ steps.get_version.outputs.VERSION }}.for.EdgeTX.2.9.zip -r ./
       # upload to the release
       - name: Upload 2.1 zip to release
         uses: svenstaro/upload-release-action@v1-release
@@ -54,3 +60,12 @@ jobs:
           asset_name: v${{ steps.get_version.outputs.VERSION }}.for.OpenTX.2.3.zip
           tag: ${{ github.ref }}
           overwrite: true
+      - name: Upload 2.9 zip to release
+        uses: svenstaro/upload-release-action@v1-release
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: /home/runner/work/OpenTX_soundpack-Joanne/OpenTX_soundpack-Joanne/2.9/v${{ steps.get_version.outputs.VERSION }}.for.EdgeTX.2.9.zip
+          asset_name: v${{ steps.get_version.outputs.VERSION }}.for.EdgeTX.2.9.zip
+          tag: ${{ github.ref }}
+          overwrite: true
+
