@@ -23,7 +23,7 @@ jobs:
             mkdir -p 2.9/en/SCRIPTS/BETAFLIGHT
             mkdir -p 2.9/en/SCRIPTS/INAV
             mkdir -p 2.9/en/SCRIPTS/YAAPU
-            sed '1d; s/\\/\//g' contents.csv | while IFS=, read name twonine twothree twotwo twoone; do cp -v "en$twotwo" "2.1/en$twoone" ; cp -v "en$twotwo" "2.2/en$twotwo"; cp -v "en$twotwo" "2.3/en$twothree"; cp -v "en$twotwo" "2.9/en$twonine"; done
+            sed '1d; s/\\/\//g' contents.csv | while IFS=, read name storage twonine twothree twotwo twoone; do cp -v "en$storage" "2.1/en$twoone" ; cp -v "en$storage" "2.2/en$twotwo"; cp -v "en$storage" "2.3/en$twothree"; cp -v "en$storage" "2.9/en$twonine"; done
       # Pack the zip releases 
       - name: ZIP releases
         run: |
