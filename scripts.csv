@@ -1,0 +1,180 @@
+Spoken,storage,Scripts location
+Acro flight mode,\acrofm.wav,\SCRIPTS\YAAPU\acro.wav
+Acro mode,\acromd.wav,\SCRIPTS\YAAPU\acro_r.wav
+Acro Mode,\acromd.wav,\SCRIPTS\INAV\acromd.wav
+Active,\active.wav,\SCRIPTS\INAV\active.wav
+Altitude,\alt.wav,\SCRIPTS\YAAPU\alt.wav
+Altitude control mode,\altctl.wav,\SCRIPTS\YAAPU\altctl.wav
+Altitude hold flight mode,\althold.wav,\SCRIPTS\YAAPU\althold.wav
+Auto flight mode,\autofm.wav,\SCRIPTS\YAAPU\auto.wav
+Auto mission mode,\mission.wav,\SCRIPTS\YAAPU\mission.wav
+Auto mode,\automd.wav,\SCRIPTS\YAAPU\auto_r.wav
+Auto RTL flight mode,\autortl.wav,\SCRIPTS\YAAPU\autortl.wav
+Auto takeoff mode,\takeoff.wav,\SCRIPTS\YAAPU\takeoff.wav
+autorotate flight mode,\autrt.wav,\SCRIPTS\YAAPU\autorotate.wav
+Autotune enabled,\atunen.wav,\SCRIPTS\YAAPU\autotune.wav
+AutoTune: Failed,\atunfl.wav,\SCRIPTS\YAAPU\1396289024.wav
+AutoTune: Success,\atunsc.wav,\SCRIPTS\YAAPU\1008001424.wav
+Avoid A D S B flight mode,\avdads.wav,\SCRIPTS\YAAPU\avoidadsb.wav
+Battery,\battry.wav,\SCRIPTS\INAV\battry.wav
+Battery alert,\batlrt.wav,\SCRIPTS\YAAPU\batalert.wav
+Battery at 10 percent,\bat10.wav,\SCRIPTS\YAAPU\bat10.wav
+Battery at 15 percent,\bat15.wav,\SCRIPTS\YAAPU\bat15.wav
+Battery at 20 percent,\bat20.wav,\SCRIPTS\YAAPU\bat20.wav
+Battery at 25 percent,\bat25.wav,\SCRIPTS\YAAPU\bat25.wav
+Battery at 30 percent,\bat30.wav,\SCRIPTS\YAAPU\bat30.wav
+Battery at 40 percent,\bat40.wav,\SCRIPTS\YAAPU\bat40.wav
+Battery at 5 percent,\bat5.wav,\SCRIPTS\YAAPU\bat5.wav
+Battery at 50 percent,\bat50.wav,\SCRIPTS\YAAPU\bat50.wav
+Battery at 60 percent,\bat60.wav,\SCRIPTS\YAAPU\bat60.wav
+Battery at 70 percent,\bat70.wav,\SCRIPTS\YAAPU\bat70.wav
+Battery at 80 percent,\bat80.wav,\SCRIPTS\YAAPU\bat80.wav
+Battery at 90 percent,\bat90.wav,\SCRIPTS\YAAPU\bat90.wav
+Battery Critical,\batcri.wav,\SCRIPTS\INAV\batcrt.wav
+Battery level 1 alert,\batlt1.wav,\SCRIPTS\YAAPU\batalert1.wav
+Battery level 2 alert,\batlt2.wav,\SCRIPTS\YAAPU\batalert2.wav
+Brake flight mode,\brkfm.wav,\SCRIPTS\YAAPU\brake.wav
+Circle flight mode,\circfm.wav,\SCRIPTS\YAAPU\circle.wav
+Cruise flight mode,\crsfm.wav,\SCRIPTS\YAAPU\cruise.wav
+Cruise mode,\crsmd.wav,\SCRIPTS\INAV\cruzmd.wav
+D,\d.wav,\SCRIPTS\BETAFLIGHT\d.wav
+D Set point,\dsetpt.wav,\SCRIPTS\BETAFLIGHT\dsetpt.wav
+Danger,\danger.wav,\SCRIPTS\INAV\danger.wav
+Distance,\dist.wav,\SCRIPTS\YAAPU\dist.wav
+Drift flight mode,\drftfm.wav,\SCRIPTS\YAAPU\drift.wav
+E K F failsafe,\ekf.wav,\SCRIPTS\YAAPU\ekf.wav
+EKF variance,\ekfvar.wav,\SCRIPTS\YAAPU\2386213680.wav
+Engine Armed,\engarm.wav,\SCRIPTS\INAV\engarm.wav
+Engine Disarmed,\engdrm.wav,\SCRIPTS\INAV\engdrm.wav
+failsafe,\fsafe.wav,\SCRIPTS\YAAPU\failsafe.wav
+Failsafe Off,\fsoff.wav,\SCRIPTS\INAV\fsoff.wav
+Failsafe On,\fson.wav,\SCRIPTS\INAV\fson.wav
+fence breach,\fncbrc.wav,\SCRIPTS\YAAPU\fencebreach.wav
+fence enabled,\fence.wav,\SCRIPTS\YAAPU\fence.wav
+Flight mode change failed,\fmchfl.wav,\SCRIPTS\YAAPU\116655276.wav
+Flight plan received,\flpnrc.wav,\SCRIPTS\YAAPU\656739232.wav
+Flip flight mode,\flip.wav,\SCRIPTS\YAAPU\flip.wav
+flow position hold flight mode,\fphfm.wav,\SCRIPTS\YAAPU\flowhold.wav
+Fly by wire a flight mode,\fbwafm.wav,\SCRIPTS\YAAPU\flybywirea.wav
+Fly by wire b flight mode,\fbwbfm.wav,\SCRIPTS\YAAPU\flybywireb.wav
+follow flight mode,\flwfm.wav,\SCRIPTS\YAAPU\follow.wav
+follow mode,\fllwmd.wav,\SCRIPTS\YAAPU\follow_r.wav
+Geofence triggered,\geotrg.wav,\SCRIPTS\YAAPU\1809087708.wav
+Good,\good.wav,\SCRIPTS\INAV\good.wav
+GPS,\gps.wav,\SCRIPTS\INAV\gps.wav
+GPS 3D fix lock,\gpsfix.wav,\SCRIPTS\YAAPU\gpsfix.wav
+GPS Glitch,\gpsglc.wav,\SCRIPTS\YAAPU\4137200300.wav
+GPS Glitch cleared,\gpsgcl.wav,\SCRIPTS\YAAPU\2310179660.wav
+GPS home acquired,\gpsha.wav,\SCRIPTS\YAAPU\1309405592.wav
+GPS home acquired,\gpsha.wav,\SCRIPTS\YAAPU\3956583920.wav
+Guided flight mode,\guidfm.wav,\SCRIPTS\YAAPU\guided.wav
+Guided mode,\guidmd.wav,\SCRIPTS\YAAPU\guided_r.wav
+Guided no gps flight mode,\guidxg.wav,\SCRIPTS\YAAPU\guidednogps.wav
+Headfree Active,\hdfrac.wav,\SCRIPTS\INAV\hfact.wav
+Headfree Off,\hdfrof.wav,\SCRIPTS\INAV\hfoff.wav
+Heading Hold,\hhld.wav,\SCRIPTS\INAV\hedhld.wav
+Heading Hold Active,\hhldac.wav,\SCRIPTS\INAV\hedhlda.wav
+Hold mode,\hldmd.wav,\SCRIPTS\YAAPU\hold_r.wav
+Home Reset,\homrst.wav,\SCRIPTS\INAV\homrst.wav
+horizon mode,\hrzmd.wav,\SCRIPTS\INAV\hrznmd.wav
+I,\i.wav,\SCRIPTS\BETAFLIGHT\i.wav
+Initialising,\init.wav,\SCRIPTS\YAAPU\initializing.wav
+Initialising,\init.wav,\SCRIPTS\YAAPU\initializing_r.wav
+Land descend started,\landds.wav,\SCRIPTS\YAAPU\1204090832.wav
+Land final started,\landfs.wav,\SCRIPTS\YAAPU\2890289840.wav
+Land flight mode,\landfm.wav,\SCRIPTS\YAAPU\land.wav
+Landing complete,\landc.wav,\SCRIPTS\YAAPU\landing.wav
+link loss failsafe mode,\llfail.wav,\SCRIPTS\YAAPU\rtgs.wav
+Loiter flight mode,\loitfm.wav,\SCRIPTS\YAAPU\loiter.wav
+Loiter mode,\loitmd.wav,\SCRIPTS\YAAPU\loiter_r.wav
+Lost,\lost.wav,\SCRIPTS\INAV\lost.wav
+Low altitude alert,\minalt.wav,\SCRIPTS\YAAPU\minalt.wav
+Low battery,\lowbat.wav,\SCRIPTS\YAAPU\lowbat.wav
+Low Battery,\lowbat.wav,\SCRIPTS\INAV\batlow.wav
+Manual flight mode,\manfm.wav,\SCRIPTS\YAAPU\manual.wav
+Manual Mode,\manmod.wav,\SCRIPTS\INAV\manmd.wav
+Manual mode,\manmod.wav,\SCRIPTS\YAAPU\manual_r.wav
+Manual mode,\manmod.wav,\sxrman.wav
+Max altitude alert,\maxalt.wav,\SCRIPTS\YAAPU\maxalt.wav
+Max distance alert,\maxdst.wav,\SCRIPTS\YAAPU\maxdist.wav
+Mission complete,\miscom.wav,\SCRIPTS\YAAPU\3708582640.wav
+Motors armed,\mtrarm.wav,\SCRIPTS\YAAPU\armed.wav
+Motors disarmed,\mtrdis.wav,\SCRIPTS\YAAPU\disarmed.wav
+No gps,\nogps.wav,\SCRIPTS\YAAPU\gpsnofix.wav
+no terrain data,\terrko.wav,\SCRIPTS\YAAPU\terrainko.wav
+normal,\nrm.wav,\SCRIPTS\INAV\normal.wav
+Off,\off.wav,\SCRIPTS\INAV\off.wav
+Offboard mode,\offbrd.wav,\SCRIPTS\YAAPU\offboard.wav
+On,\on.wav,\SCRIPTS\INAV\on.wav
+P,\p.wav,\SCRIPTS\BETAFLIGHT\p.wav
+Parachute: Released,\pararl.wav,\SCRIPTS\YAAPU\2664106240.wav
+Passed waypoint:,\psdway.wav,\SCRIPTS\YAAPU\1997782032.wav
+Position control mode,\posctl.wav,\SCRIPTS\YAAPU\posctl.wav
+Position Hold,\poshld.wav,\SCRIPTS\INAV\poshld.wav
+Position hold flight mode,\phfm.wav,\SCRIPTS\YAAPU\poshold.wav
+PreArming: Need 3D Fix,\pr3d.wav,\SCRIPTS\YAAPU\264977348.wav
+Precision landing mode,\prland.wav,\SCRIPTS\YAAPU\precland.wav
+Q acro flight mode,\qacro.wav,\SCRIPTS\YAAPU\qacro.wav
+Q autotune flight mode,\qatnfm.wav,\SCRIPTS\YAAPU\qautotune.wav
+Q hover flight mode,\qhvrmd.wav,\SCRIPTS\YAAPU\qhover.wav
+Q land flight mode,\qland.wav,\SCRIPTS\YAAPU\qland.wav
+Q loiter flight mode,\qloitr.wav,\SCRIPTS\YAAPU\qloiter.wav
+Q return to home flight mode,\qrtl.wav,\SCRIPTS\YAAPU\qrtl.wav
+Q stabilise flight mode,\qstab.wav,\SCRIPTS\YAAPU\qstabilize.wav
+rate attitude mode,\rattmd.wav,\SCRIPTS\YAAPU\rattitude.wav
+reached command:,\rchcmd.wav,\SCRIPTS\YAAPU\4091124880.wav
+reached waypoint:,\rchway.wav,\SCRIPTS\YAAPU\3311875476.wav
+ready,\ready.wav,\SCRIPTS\YAAPU\ready.wav
+Ready to Fly,\rtf.wav,\SCRIPTS\INAV\ready.wav
+Return to home,\rth.wav,\SCRIPTS\YAAPU\rtl.wav
+Return to home mode,\rthmd.wav,\SCRIPTS\YAAPU\rtl_r.wav
+Return to Launch,\rtl.wav,\SCRIPTS\INAV\rtl.wav
+simple mode,\smplmd.wav,\SCRIPTS\YAAPU\simple.wav
+simple mode,\smplmd.wav,\SCRIPTS\YAAPU\simple_r.wav
+simple mode disabled,\smplds.wav,\SCRIPTS\YAAPU\simpleoff.wav
+simple mode enabled,\smplen.wav,\SCRIPTS\YAAPU\simpleon.wav
+Smart return to home flight mode,\srthfm.wav,\SCRIPTS\YAAPU\smartrtl.wav
+Smart return to home mode,\srthm.wav,\SCRIPTS\YAAPU\smartrtl_r.wav
+Smart RTL deactivated,\srtlof.wav,\SCRIPTS\YAAPU\3025044912.wav
+Smart RTL Unavailable,\srtlun.wav,\SCRIPTS\YAAPU\1834616480.wav
+Soaring: Disabled.,\soards.wav,\SCRIPTS\YAAPU\4175833240.wav
+Soaring: Drifted too far,\soardr.wav,\SCRIPTS\YAAPU\2913564252.wav
+Soaring: drifted too far,\soardr.wav,\SCRIPTS\YAAPU\636067590.wav
+Soaring: Enabled.,\soaren.wav,\SCRIPTS\YAAPU\883458048.wav
+Soaring: Exit via RC switch,\soarex.wav,\SCRIPTS\YAAPU\1746499976.wav
+Soaring: not climbing,\soarnc.wav,\SCRIPTS\YAAPU\2599859119.wav
+Soaring: Outside max radius,\soarmr.wav,\SCRIPTS\YAAPU\1883944664.wav
+Soaring: reached lower altitude,\soarlo.wav,\SCRIPTS\YAAPU\4026147344.wav
+Soaring: reached upper altitude,\soarhi.wav,\SCRIPTS\YAAPU\1352994600.wav
+Soaring: Thermal ended,\soarte.wav,\SCRIPTS\YAAPU\981284144.wav
+Soaring: thermal weak,\soartw.wav,\SCRIPTS\YAAPU\2139150204.wav
+Soaring: Too high,\soarth.wav,\SCRIPTS\YAAPU\2730864352.wav
+Soaring: Too low,\soartl.wav,\SCRIPTS\YAAPU\1698465616.wav
+Sport flight mode,\sprtfm.wav,\SCRIPTS\YAAPU\sport.wav
+Stabilise flight mode,\stabfm.wav,\SCRIPTS\YAAPU\stabilize.wav
+Steering mode,\strmd.wav,\SCRIPTS\YAAPU\steering_r.wav
+super simple mode disabled,\ssmdds.wav,\SCRIPTS\YAAPU\ssimpleoff.wav
+super simple mode enabled,\ssmden.wav,\SCRIPTS\YAAPU\ssimpleon.wav
+System I D flight mode,\sidfm.wav,\SCRIPTS\YAAPU\systemid.wav
+Takeoff complete,\tkofcp.wav,\SCRIPTS\YAAPU\554623408.wav
+takeoff flight mode,\tkoffm.wav,\SCRIPTS\YAAPU\takeofffm.wav
+Thermal flight mode,\thrmfm.wav,\SCRIPTS\YAAPU\thermal.wav
+Throw flight mode,\throw.wav,\SCRIPTS\YAAPU\throw.wav
+Timer alert,\tmrlrt.wav,\SCRIPTS\YAAPU\timealert.wav
+too high,\tohigh.wav,\SCRIPTS\INAV\toohgh.wav
+Training flight mode,\trnfm.wav,\SCRIPTS\YAAPU\training.wav
+Transition done,\trdon.wav,\SCRIPTS\YAAPU\4019153925.wav
+Transition done,\trdon.wav,\SCRIPTS\YAAPU\986165592.wav
+Transition started,\trst.wav,\SCRIPTS\YAAPU\1249672288.wav
+Transition VTOL done,\trvtdn.wav,\SCRIPTS\YAAPU\3417557720.wav
+turtle mode,\trtmd.wav,\SCRIPTS\YAAPU\turtle.wav
+velocity flight mode,\velfm.wav,\SCRIPTS\YAAPU\velocity.wav
+warning,\warn.wav,\SCRIPTS\INAV\warnng.wav
+waypoint,\wypnt.wav,\SCRIPTS\INAV\waypt.wav
+Yaa-pu telemetry ready,\yaapu.wav,\SCRIPTS\YAAPU\yaapu.wav
+Zigzag flight mode,\zigzag.wav,\SCRIPTS\YAAPU\zigzag.wav
+Attitude Hold Mode,\ahdmd.wav,\sxrahd.wav
+Stabalizer Mode,\stabmd.wav,\sxrsmd.wav
+Stabalizer Off,\stabof.wav,\sxrsof.wav
+Stabalizer On,\stabon.wav,\sxrstb.wav
+Wind Rejection Mode,\wndrej.wav,\sxrwr.wav
