@@ -18,13 +18,22 @@ jobs:
             cd /home/runner/work/OpenTX_soundpack-Joanne/OpenTX_soundpack-Joanne
             mkdir -p 2.1/en/SYSTEM
             mkdir -p 2.2/en/SYSTEM
-            mkdir -p 2.3/en/SYSTEM
-            mkdir -p 2.9/en/SYSTEM
-            mkdir -p 2.9/en/SCRIPTS/BETAFLIGHT
-            mkdir -p 2.9/en/SCRIPTS/INAV
-            mkdir -p 2.9/en/SCRIPTS/YAAPU
-            sed '1d; s/\\/\//g' contents.csv | while IFS=, read name storage twonine twothree twotwo twoone; do cp -v "wav$storage" "2.1/en$twoone" ; cp -v "wav$storage" "2.2/en$twotwo"; cp -v "wav$storage" "2.3/en$twothree"; cp -v "wav$storage" "2.9/en$twonine"; done
-            sed '1d; s/\\/\//g' scripts.csv | while IFS=, read name storage scripts; do cp -v "wav$storage" "2.3/en$scripts" ; cp -v "wav$storage" "2.9/en$scripts"; done
+            mkdir -p 2.3/en/SYSTEM 2.3/en/SCRIPTS/BETAFLIGHT 2.3/en/SCRIPTS/INAV 2.3/en/SCRIPTS/YAAPU
+            mkdir -p 2.9/en/SYSTEM 2.9/en/SCRIPTS/BETAFLIGHT 2.9/en/SCRIPTS/INAV 2.9/en/SCRIPTS/YAAPU
+            echo Spoken Text,Filename >> 2.1/contents.csv
+            echo Spoken Text,Filename >> 2.2/contents.csv
+            echo Spoken Text,Filename >> 2.3/contents.csv
+            echo Spoken Text,Filename >> 2.9/contents.csv
+            sed '1d; s/\\/\//g' contents.csv |
+            while IFS=, read name storage twonine twothree twotwo twoone added notes;
+            do cp -v "wav$storage" "2.1/en$twoone"; echo $name,$twoone >> 2.1/contents.csv;
+            cp -v "wav$storage" "2.2/en$twotwo"; echo $name,$twotwo >> 2.2/contents.csv;
+            cp -v "wav$storage" "2.3/en$twothree"; echo $name,$twothree >> 2.3/contents.csv;
+            cp -v "wav$storage" "2.9/en$twonine"; echo $name,$twonine >> 2.9/contents.csv;
+            done
+            sed '1d; s/\\/\//g' scripts.csv |
+            while IFS=, read name storage scripts;
+            do cp -v "wav$storage" "2.3/en$scripts" ; cp -v "wav$storage" "2.9/en$scripts"; done
       # Pack the zip releases 
       - name: ZIP releases
         run: |
