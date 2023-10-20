@@ -12,6 +12,9 @@ To download the current soundpack go to the
 [Releases page](https://github.com/pinkywafer/OpenTX_soundpack-Joanne/releases).
 Make sure to select the download that suits your firmware version.
 
+The download also contains a contents.csv file listing the sounds and their filenames for reference.
+Also included are the sounds for the Betaflight, INav, SXR and Yaapu Scripts
+
 To install, extract the contents of the zip file and move the en\ folder into your SD Card's SOUNDS folder.
 
 The binary files on Github are all stored in the `wav` folder.
